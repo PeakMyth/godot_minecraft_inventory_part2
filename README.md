@@ -1,0 +1,2 @@
+# godot_minecraft_inventory_part2
+godot背包库存系统第二部分
