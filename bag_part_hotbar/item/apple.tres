@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://1lcccdoiqaok"]
+
+[ext_resource type="Script" uid="uid://cy7w25d27absv" path="res://GDScript/ItemData.gd" id="1_i80tk"]
+[ext_resource type="Texture2D" uid="uid://cnsbisacovqlg" path="res://texture/Fruits.png" id="2_ehlpe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rub87"]
+atlas = ExtResource("2_ehlpe")
+region = Rect2(0, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_i80tk")
+id = 1
+name = "苹果"
+texture = SubResource("AtlasTexture_rub87")
+metadata/_custom_type_script = "uid://cy7w25d27absv"

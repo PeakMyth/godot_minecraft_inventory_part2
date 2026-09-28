@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cdj8vcib6qame"]
+
+[ext_resource type="Script" uid="uid://cy7w25d27absv" path="res://GDScript/ItemData.gd" id="1_gg54h"]
+[ext_resource type="Texture2D" uid="uid://cnsbisacovqlg" path="res://texture/Fruits.png" id="2_q3we5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avehf"]
+atlas = ExtResource("2_q3we5")
+region = Rect2(0, 64, 32, 32)
+
+[resource]
+script = ExtResource("1_gg54h")
+id = 3
+name = "葡萄"
+texture = SubResource("AtlasTexture_avehf")
+metadata/_custom_type_script = "uid://cy7w25d27absv"

@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://75ntryo7h5ue"]
+
+[ext_resource type="Script" uid="uid://k6j4homav1rn" path="res://ui/hot_bar_slot.gd" id="1_f32ow"]
+[ext_resource type="PackedScene" uid="uid://ck1v2xdk2vkp0" path="res://ui/slot_item.tscn" id="2_ie81b"]
+
+[node name="HotBar_slot" type="Button" unique_id=97607735]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(64, 64)
+offset_right = 64.0
+offset_bottom = 64.0
+script = ExtResource("1_f32ow")
+
+[node name="SlotBackground" type="ColorRect" parent="." unique_id=1947953252]
+layout_mode = 0
+offset_right = 64.0
+offset_bottom = 64.0
+mouse_filter = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="SlotBackground" unique_id=1407579096]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -24.0
+offset_right = 24.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="slot_item" parent="SlotBackground/CenterContainer" unique_id=205313690 instance=ExtResource("2_ie81b")]
+layout_mode = 2

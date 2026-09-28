@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d1ysld0rfhpmn"]
+
+[ext_resource type="Script" uid="uid://cy7w25d27absv" path="res://GDScript/ItemData.gd" id="1_ldq3k"]
+[ext_resource type="Texture2D" uid="uid://fkatj4b6uo8y" path="res://texture/Wooden_log.png" id="2_3a3gp"]
+
+[resource]
+script = ExtResource("1_ldq3k")
+id = 4
+name = "木头"
+texture = ExtResource("2_3a3gp")
+max_stack = 16
+use_mouse_right = false
+metadata/_custom_type_script = "uid://cy7w25d27absv"
