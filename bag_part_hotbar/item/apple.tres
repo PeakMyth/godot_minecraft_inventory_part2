@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://1lcccdoiqaok"]
+
+[ext_resource type="Script" uid="uid://cy7w25d27absv" path="res://GDScript/ItemData.gd" id="1_i80tk"]
+[ext_resource type="Texture2D" uid="uid://kcjhq78omjk1" path="res://texture/Singles_Icons_32x32_Crops_Apple.png" id="2_ehlpe"]
+
+[resource]
+script = ExtResource("1_i80tk")
+id = 1
+name = "苹果"
+texture = ExtResource("2_ehlpe")
+metadata/_custom_type_script = "uid://cy7w25d27absv"
